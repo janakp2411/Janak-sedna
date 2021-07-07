@@ -1,0 +1,17 @@
+.tag {
+    background-color: #314a86;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 17px;
+    margin: 2px 3px;
+}
+
+.tag i {
+    padding-left: 10px;
+}
+.tag i:hover {
+    cursor: pointer;
+}

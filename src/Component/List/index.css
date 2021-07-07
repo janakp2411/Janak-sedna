@@ -1,0 +1,57 @@
+.list {
+    padding: 15px;
+    margin: 15px 0px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    clear: both;
+}
+.list-name {
+    width: 18%;
+}
+
+.list-name .name {
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.list-tags {
+    width: 43%;
+    text-align: right;
+}
+.list-input-field {
+    width: 25%;
+}
+
+.list-add-cta {
+    width: 10%;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+button {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    border: 1px solid transparent;
+    padding: 11px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}

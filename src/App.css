@@ -1,0 +1,17 @@
+.app {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #f7f7f9;
+  background-color: #f8f9fa;
+}
+
+.app-header-input-field {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.app-header-input-field input {
+  font-family: Arial, FontAwesome
+}
+
